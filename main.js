@@ -58,8 +58,40 @@ console.log(person);
 console.log(person.fName, person.lName);
 console.log(person.hobbies[1]);
 console.log(person.address.street);
-const {fName, lName, address: {city}} = person;
+const {
+    fName,
+    lName,
+    address: {
+        city
+    }
+} = person;
 console.log(fName, lName, city);
 
 person.email = 'babyaga@hitmanforhire.com';
 console.log(person)
+
+
+const ToDo = [{
+        id: 1,
+        text: 'make coffee',
+        isCompleted: true
+
+    },
+    {
+        id: 2,
+        text: 'push code',
+        isCompleted: false
+
+    },
+    {
+        id: 3,
+        text: 'go shopping',
+        isCompleted: true
+
+    }
+];
+console.log(ToDo);
+console.log(ToDo[1].text);
+
+ToDo[2].isCompleted = false;
+console.log(ToDo);
