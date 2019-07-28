@@ -90,7 +90,7 @@ const ToDo = [{
 
     }
 ];
-console.log(typeof(ToDo));
+console.log(typeof (ToDo));
 console.log(ToDo);
 console.log(ToDo[1].text);
 
@@ -100,3 +100,8 @@ console.log(ToDo);
 //convert to JSON
 const todoJSON = JSON.stringify(ToDo);
 console.log(todoJSON);
+
+//For Loop
+for (let i = 0; i <= 10; i++) {
+    console.log(i);
+}
