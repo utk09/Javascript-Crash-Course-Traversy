@@ -113,4 +113,14 @@ console.log(todoJSON);
 //For Loop
 for (let i = 0; i <= 10; i++) {
     console.log(i);
+    console.log(`printing number :: ${i}`);
 }
+
+// while loop
+
+let x = 0;
+while (x < 16) {
+    console.log(`while loop number printed :: ${x}`);
+    x++;
+}
+
