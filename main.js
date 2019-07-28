@@ -1,3 +1,8 @@
+// all code will run in Chrome/Firefox Console.
+/*
+Console in Chrome(Windows) can be found as CTRL+SHIFT+I
+Console in Chrome(Mac) can be found as CMD+SHIFT+I
+*/
 console.log("hello from console log---");
 console.error("this is console error---");
 console.warn("this is console warning---");
@@ -11,6 +16,7 @@ console.log("My name is " + name + " and I am " + age);
 
 const hello = `My name is ${name} and I'm ${age}`;
 console.log(hello)
+
 
 const s = "Hi-there!";
 console.log(s.length);
@@ -43,6 +49,7 @@ console.log(Array.isArray(fruits));
 
 console.log(fruits.indexOf('apple'))
 
+//create object
 const person = {
     fName: 'Baba',
     lName: 'Yaga',
@@ -53,7 +60,7 @@ const person = {
         city: 'New York'
     }
 };
-
+console.log(typeof(person))
 console.log(person);
 console.log(person.fName, person.lName);
 console.log(person.hobbies[1]);
