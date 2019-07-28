@@ -17,7 +17,7 @@ console.log("My name is " + name + " and I am " + age);
 const hello = `My name is ${name} and I'm ${age}`;
 console.log(hello)
 
-
+//string methods
 const s = "Hi-there!";
 console.log(s.length);
 console.log(s.toUpperCase());
@@ -25,6 +25,7 @@ console.log(s.toLowerCase());
 console.log(s.substring(0, 5));
 console.log(s.split('-'))
 
+//arrays in javascript
 const numbers = new Array(1, 23, 4, 43, 231, 43);
 console.log(numbers)
 
@@ -60,7 +61,7 @@ const person = {
         city: 'New York'
     }
 };
-console.log(typeof(person))
+console.log(typeof (person))
 console.log(person);
 console.log(person.fName, person.lName);
 console.log(person.hobbies[1]);
