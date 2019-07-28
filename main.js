@@ -32,15 +32,15 @@ console.log(numbers)
 const fruits = ['apple', 'mango', 'chikoo'];
 console.log(fruits);
 
-console.log(fruits[2]);
+console.log(fruits[2]); //find item at index 2. Note that arrays start at 0.
 
-fruits[1] = 'strawberry'
+fruits[1] = 'strawberry' //add at index 1
 console.log(fruits)
 
-fruits.push('banana');
+fruits.push('banana'); //add to last
 console.log(fruits);
 
-fruits.pop()
+fruits.pop() // remove last
 console.log(fruits);
 
 fruits.unshift('avacado')
