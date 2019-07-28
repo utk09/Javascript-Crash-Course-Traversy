@@ -70,7 +70,7 @@ console.log(fName, lName, city);
 person.email = 'babyaga@hitmanforhire.com';
 console.log(person)
 
-
+//make a ToDO object
 const ToDo = [{
         id: 1,
         text: 'make coffee',
@@ -90,8 +90,13 @@ const ToDo = [{
 
     }
 ];
+console.log(typeof(ToDo));
 console.log(ToDo);
 console.log(ToDo[1].text);
 
 ToDo[2].isCompleted = false;
 console.log(ToDo);
+
+//convert to JSON
+const todoJSON = JSON.stringify(ToDo);
+console.log(todoJSON);
