@@ -229,9 +229,16 @@ switch (color) {
         break;
 }
 
-// Functions
+// Function to add two numbers
 
 function addNumbers(num1 = 1, num2 = 1) {
     return num1 + num2;
 }
 console.log(addNumbers(5, 5));
+
+// arrow function to subtract two numbers
+
+const subNumbers = (num3, num4) => {
+    return num3 - num4;
+}
+console.log(subNumbers(7, 4));
