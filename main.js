@@ -256,3 +256,4 @@ const person2 = new Person('Jenny', 'Lark', '5/2/1995');
 console.log("person1 :: \n", person1);
 console.log("person2.lastName :: \n", person2.lasteName);
 console.log("person1.dob :: \n", person1.dob);
+console.log("person2.dob :: \n", person1.dob.getFullYear());
