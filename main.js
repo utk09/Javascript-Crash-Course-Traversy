@@ -151,6 +151,7 @@ for (let y = 0; y < ToDos.length; y++) {
     console.log(ToDos[y].text)
 }
 
+// looping over arrays - method 2
 for (let m of ToDos){
     console.log(m.isCompleted)
 }
