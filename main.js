@@ -161,3 +161,9 @@ ToDos.forEach(function (n) {
     console.log("forEach Method output -- \n", n.text);
 })
 
+// looping over arrays - method 4 -  using "map" to create arrays
+const ToDOtext = ToDos.map(function (p) {
+    return p.text;
+})
+
+console.log(ToDOtext);
