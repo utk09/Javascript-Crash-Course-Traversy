@@ -124,3 +124,33 @@ while (x < 16) {
     x++;
 }
 
+//make a ToDO object
+const ToDos = [{
+        id: 1,
+        text: 'make coffee',
+        isCompleted: true
+
+    },
+    {
+        id: 2,
+        text: 'push code',
+        isCompleted: false
+
+    },
+    {
+        id: 3,
+        text: 'go shopping',
+        isCompleted: true
+
+    }
+];
+
+console.log(ToDos)
+//looping through arrays - method 1
+for (let y = 0; y < ToDos.length; y++) {
+    console.log(ToDos[y].text)
+}
+
+for (let m of ToDos){
+    console.log(m.isCompleted)
+}
