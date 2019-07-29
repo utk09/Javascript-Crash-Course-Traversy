@@ -167,3 +167,11 @@ const ToDOtext = ToDos.map(function (p) {
 })
 
 console.log(ToDOtext);
+
+// Looping over arrays - method 5 - using "filter" to define specific conditions
+
+const toDoComplete = ToDos.filter(function (q) {
+    return q.isCompleted === true;
+})
+
+console.log(toDoComplete);
