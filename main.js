@@ -228,3 +228,10 @@ switch (color) {
         console.log("color is neither red nor blue");
         break;
 }
+
+// Functions
+
+function addNumbers(num1 = 1, num2 = 1) {
+    return num1 + num2;
+}
+console.log(addNumbers(5, 5));
