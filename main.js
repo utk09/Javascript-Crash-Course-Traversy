@@ -152,6 +152,12 @@ for (let y = 0; y < ToDos.length; y++) {
 }
 
 // looping over arrays - method 2
-for (let m of ToDos){
+for (let m of ToDos) {
     console.log(m.isCompleted)
 }
+
+// looping over arrays - method 3 -  high order function "forEach"
+ToDos.forEach(function (n) {
+    console.log("forEach Method output -- \n", n.text);
+})
+
