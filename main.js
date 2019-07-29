@@ -194,25 +194,23 @@ Simple conditionals
 const b = 15;
 const c = 25;
 
-if(b>16){
+if (b > 16) {
     console.log("b greater than 16");
-}
-
-else if(c<29){
+} else if (c < 29) {
     console.log("c less than 29");
-}
-
-else{
+} else {
     console.log("something else")
 }
 
-if (b<14 || c > 25){
+if (b < 14 || c > 25) {
     console.log("b < 14 or c > 25");
-}
-
-else if (b === 15 && c === 25){
+} else if (b === 15 && c === 25) {
     console.log("b === 15 and c === 25");
-}
-else{
+} else {
     console.log("something else");
 }
+
+//iternary operators
+
+const color = c > 21 ? 'red' : 'blue';
+console.log(color)
