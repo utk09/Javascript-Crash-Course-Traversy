@@ -242,3 +242,17 @@ const subNumbers = (num3, num4) => {
     return num3 - num4;
 }
 console.log(subNumbers(7, 4));
+
+// constructor function - object oriented programming
+function Person(firstName, lasteName, dob) {
+    this.firstName = firstName;
+    this.lasteName = lasteName;
+    this.dob = new Date(dob);
+}
+
+const person1 = new Person('John', 'Wick', '4/5/1980');
+const person2 = new Person('Jenny', 'Lark', '5/2/1995');
+
+console.log("person1 :: \n", person1);
+console.log("person2.lastName :: \n", person2.lasteName);
+console.log("person1.dob :: \n", person1.dob);
