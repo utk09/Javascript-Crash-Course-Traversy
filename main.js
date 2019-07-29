@@ -186,3 +186,22 @@ const toDoComplete_text = ToDos.filter(function (r) {
 })
 
 console.log(toDoComplete_text);
+
+/*
+Simple conditionals
+*/
+
+const b = 15;
+const c = 25;
+
+if(b>16){
+    console.log("b greater than 16");
+}
+
+else if(c<29){
+    console.log("c less than 29");
+}
+
+else{
+    console.log("something else")
+}
