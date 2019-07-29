@@ -213,4 +213,18 @@ if (b < 14 || c > 25) {
 //iternary operators
 
 const color = c > 21 ? 'red' : 'blue';
-console.log(color)
+console.log(color);
+
+// switch statements
+
+switch (color) {
+    case 'red':
+        console.log("color is red");
+        break;
+    case 'blue':
+        console.log("color is blue");
+        break;
+    default:
+        console.log("color is neither red nor blue");
+        break;
+}
