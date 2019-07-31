@@ -269,3 +269,4 @@ Person.prototype.getFullName = function () {
     return `${this.firstName} ${this.lasteName}`
 }
 console.log("person1.getFullName :: \n", person1.getFullName());
+console.log("person1", person1);
