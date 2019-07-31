@@ -248,6 +248,9 @@ function Person(firstName, lasteName, dob) {
     this.firstName = firstName;
     this.lasteName = lasteName;
     this.dob = new Date(dob);
+    this.getBirthYear = function () {
+        return this.dob.getFullYear()
+    }
 }
 
 const person1 = new Person('John', 'Wick', '4/5/1980');
@@ -256,4 +259,5 @@ const person2 = new Person('Jenny', 'Lark', '5/2/1995');
 console.log("person1 :: \n", person1);
 console.log("person2.lastName :: \n", person2.lasteName);
 console.log("person1.dob :: \n", person1.dob);
-console.log("person2.dob :: \n", person1.dob.getFullYear());
+console.log("person2.dob.year :: \n", person2.dob.getFullYear());
+console.log("person1.dob.year :: \n", person1.getBirthYear());
