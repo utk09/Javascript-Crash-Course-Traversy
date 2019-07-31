@@ -27,3 +27,37 @@
 
 // const btn = document.querySelector('.btn');
 // btn.style.background = 'rgb(88, 4, 99)';
+
+// const btn = document.querySelector('.btn');
+
+// btn.addEventListener('click', (e) => {
+//     e.preventDefault();
+//     console.log('Button Clicked!');
+//     console.log(e);
+//     console.log(e.target);
+//     document.querySelector('#my-form').style.background = '#e4c4a4';
+//     document.querySelector('body').classList.add('bg-dark');
+// })
+
+
+// const btn2 = document.querySelector('.btn');
+
+// btn2.addEventListener('mouseover', (e) => {
+//     e.preventDefault();
+//     console.log('Button Clicked!');
+//     console.log(e);
+//     console.log(e.target);
+//     document.querySelector('#my-form').style.background = '#e4c4a4';
+//     document.querySelector('body').classList.add('bg-dark');
+// })
+
+const btn3 = document.querySelector('.btn');
+
+btn3.addEventListener('mouseout', (e) => {
+    e.preventDefault();
+    console.log('Button Clicked!');
+    console.log(e);
+    console.log(e.target);
+    document.querySelector('#my-form').style.background = '#e4c4a4';
+    document.querySelector('body').classList.add('bg-dark');
+})
