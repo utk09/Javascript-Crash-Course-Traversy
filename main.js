@@ -296,4 +296,4 @@ const factory2 = new Factory('Qripsy', 'Mumbai', '12/05/2019');
 console.log("factory 1 :: \n", factory1);
 console.log("factory 2 :: \n", factory2);
 
-console.log("factory2.dateOfopening.getFullYear", factory2.dateOfOpening.getFullYear());
+console.log("factory2.dateOfopening.getFullYear :: \n", factory2.dateOfOpening.getFullYear());
