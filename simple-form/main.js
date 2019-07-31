@@ -17,10 +17,13 @@
 
 // items.forEach((item) => console.log(item));
 
-const ul = document.querySelector('.items');
+// const ul = document.querySelector('.items');
 
-// // ul.remove();
+// ul.remove();
 // ul.lastElementChild.remove();
 // ul.firstElementChild.textContent = 'Hello World!';
-ul.children[1].innerText = 'Zumba';
-ul.lastElementChild.innerHTML = '<h2>Hello</h2>';
+// ul.children[1].innerText = 'Zumba';
+// ul.lastElementChild.innerHTML = '<h2>Hello</h2>';
+
+// const btn = document.querySelector('.btn');
+// btn.style.background = 'rgb(88, 4, 99)';
