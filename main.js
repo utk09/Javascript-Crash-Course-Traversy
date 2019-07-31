@@ -270,3 +270,28 @@ Person.prototype.getFullName = function () {
 }
 console.log("person1.getFullName :: \n", person1.getFullName());
 console.log("person1", person1);
+
+// Classes
+
+class Factory {
+    constructor(factoryName, factoryPlace, dateOfOpening) {
+        this.factoryName = factoryName;
+        this.factoryPlace = factoryPlace;
+        this.dateOfOpening = dateOfOpening;
+    }
+
+    getFactoryNamePlace() {
+        return `${factoryName} ${factoryPlace}`;
+    }
+
+    getFactoryLaunch() {
+        return this.dateOfOpening.getFullYear();
+    }
+}
+
+// instaniate object
+const factory1 = new Factory('IndiaBulls', 'Chembur', '12-06-1979');
+const factory2 = new Factory('Qripsy', 'Mumbai', '31-07-2019');
+
+console.log("factory 1 :: \n", factory1);
+console.log("factory 2 :: \n", factory2);
