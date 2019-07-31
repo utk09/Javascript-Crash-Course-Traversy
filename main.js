@@ -277,7 +277,7 @@ class Factory {
     constructor(factoryName, factoryPlace, dateOfOpening) {
         this.factoryName = factoryName;
         this.factoryPlace = factoryPlace;
-        this.dateOfOpening = dateOfOpening;
+        this.dateOfOpening = new Date (dateOfOpening);
     }
 
     getFactoryNamePlace() {
@@ -290,8 +290,10 @@ class Factory {
 }
 
 // instaniate object
-const factory1 = new Factory('IndiaBulls', 'Chembur', '12-06-1979');
-const factory2 = new Factory('Qripsy', 'Mumbai', '31-07-2019');
+const factory1 = new Factory('IndiaBulls', 'Chembur', '12/06/1979');
+const factory2 = new Factory('Qripsy', 'Mumbai', '31/07/2015');
 
 console.log("factory 1 :: \n", factory1);
 console.log("factory 2 :: \n", factory2);
+
+console.log("factory2.dateOfopening.getFullYear", factory1.dateOfOpening.getFullYear());
