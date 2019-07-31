@@ -251,11 +251,9 @@ function Person(firstName, lasteName, dob) {
     this.getBirthYear = function () {
         return this.dob.getFullYear()
     }
-    this.getFullName = function () {
-        return `${this.firstName} ${this.lasteName}`
-    }
 }
 
+// instantiate object
 const person1 = new Person('John', 'Wick', '4/5/1980');
 const person2 = new Person('Jenny', 'Lark', '5/2/1995');
 
@@ -264,4 +262,10 @@ console.log("person2.lastName :: \n", person2.lasteName);
 console.log("person1.dob :: \n", person1.dob);
 console.log("person2.dob.year :: \n", person2.dob.getFullYear());
 console.log("person1.dob.year :: \n", person1.getBirthYear());
+
+// Prototype
+
+Person.prototype.getFullName = function () {
+    return `${this.firstName} ${this.lasteName}`
+}
 console.log("person1.getFullName :: \n", person1.getFullName());
