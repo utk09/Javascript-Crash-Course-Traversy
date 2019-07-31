@@ -51,13 +51,14 @@
 //     document.querySelector('body').classList.add('bg-dark');
 // })
 
-const btn3 = document.querySelector('.btn');
+// const btn3 = document.querySelector('.btn');
 
-btn3.addEventListener('mouseout', (e) => {
-    e.preventDefault();
-    console.log('Button Clicked!');
-    console.log(e);
-    console.log(e.target);
-    document.querySelector('#my-form').style.background = '#e4c4a4';
-    document.querySelector('body').classList.add('bg-dark');
-})
+// btn3.addEventListener('mouseout', (e) => {
+//     e.preventDefault();
+//     console.log('Button Clicked!');
+//     console.log(e);
+//     console.log(e.target);
+//     document.querySelector('#my-form').style.background = '#e4c4a4';
+//     document.querySelector('body').classList.add('bg-dark');
+// })
+
