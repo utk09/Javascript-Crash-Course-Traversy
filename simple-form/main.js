@@ -78,8 +78,17 @@ function onSubmit(e) {
         msg.classList.add('error');
         msg.innerHTML = 'Please fill all fields';
 
-        
+        setTimeout(() => msg.remove(), 1000);
     } else {
+        setTimeout(() => msg.remove(), 100);
         console.log("Success!")
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(`${nameInput.value} : ${emailInput.value}`));
+
+        usrList.appendChild(li);
+
+        //clear fields
+        nameInput.value = '';
+        emailInput.value = '';
     }
 }
