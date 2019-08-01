@@ -80,7 +80,7 @@ function onSubmit(e) {
 
         setTimeout(() => msg.remove(), 1000);
     } else {
-        setTimeout(() => msg.remove(), 100);
+        // setTimeout(() => msg.remove(), 100);
         console.log("Success!")
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(`${nameInput.value} : ${emailInput.value}`));
